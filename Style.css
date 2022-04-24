@@ -36,6 +36,11 @@
 }
 .cabecera__imagen {
     width: 20vw;
+    transition: all 300ms;
+}
+.cabecera__imagen:hover {
+     width: 21vw;
+
 }
 .barraNavegacion {
     width: 200vw;
@@ -101,6 +106,11 @@ a {
 .imagenCelular {
     width: 40vw;
     height: 45vw;
+    filter: blur(0);
+    transition: all 0.5s linear;
+}
+.imagenCelular:hover {
+    filter: blur(20px);
 }
 
 .seccionDos {
@@ -119,7 +129,11 @@ a {
     display: flex;
     justify-content: center;
     font-size: 3vw;
+    transition: all 300ms;
     
+}
+.tituloDos:hover {
+    font-size: 3.5vw;
 }
 .contenedorPerfiles {
     width: 100vw;
@@ -145,7 +159,7 @@ a {
     border-radius: 7vw;
 }
 .barraFooter {
-    background-color: rgb(83, 81, 81); 
+    background: linear-gradient(to bottom, gray, black)   /* rgb(83, 81, 81); */ ;
     padding: 1em 0;
     text-align: center;
     position: absolute;
@@ -158,6 +172,12 @@ a {
     justify-content:space-evenly;
     margin-bottom: 5vw;
 
+}
+.redSocial a img {
+    transition: all 300ms;
+}
+.redSocial a img:hover {
+width: 33px;
 }
 
 .barraFooter__lista{
@@ -596,6 +616,7 @@ input:-moz-placeholder {
     width: 30vw;
     height: 35vw;
    }
+   
 .seccionDos {
     width: 100vw;
     display: flex;
