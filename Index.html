@@ -23,9 +23,9 @@
 </head>
 <body class="cuerpo">
     <header class="cabecera">
-      <div>
+      <div class="logo">
         <div class="d-flex align-items-center flex-row align-content-center encabezado bg-principal">
-			    <div> <a href="index.html"><img src="./imagenes/Logo.png" alt="IMAGEN LOGO" class="cabecera__imagen" id="INICIO"></a></div>
+			    <div> <a href="index.html"><img src="./imagenes/Logo.png" alt="IMAGEN LOGO" class="cabecera__imagen imagen-fluid" id="INICIO"></a></div>
 	  	  </div>
       </div>
       <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
@@ -45,48 +45,47 @@
         </div>
       </nav>
     </header>
-    <main class="principal">
-        <section class="container">
-            <div class="row">
-              <div class="col-lg-7 col-md-6 col-sm-12">
-                 <h2 class="text-center text-light my-5">¡Encontrá a tu Gaucho ideal!</h2>
-                 <p class="text-lg-start text- md-start text-sm-center text-light fs-1 my-5 mx-5">Decargá la App. Registrate gratis, navegá entre los servicios disponibles y
-                  contratá al profesional que mejor se ajuste a tus necesidades! </p>
+    <main class="container-fluid principal">
+            <section class="container d-flex flex-row seccionUno">
+              <div class="textoUno">
+                 <h1 class="text-center text-light my-5">¡Encontrá a tu Gaucho ideal!</h1>
+                  <p class="fs-5 text-light my-5 mx-5">Decargá la App. Registrate gratis, navegá entre los servicios disponibles y
+                    contratá al profesional que mejor se ajuste a tus necesidades! </p>
+                  </div>
               </div>
-              <div class="col-lg-5 col-md-6 col-sm-12">
-                <img src="./imagenes/celulartres.jpg" alt="Celular" class="imagenCelular">
+              <div class="contenedorCelu">
+                <img src="./imagenes/celulartres.jpg" alt="Celular" class="imagen__celular">
               </div>
-            </div>
-        </section> 
+            </section> 
         <section class="container-fluid flex-column">
-          <div class="contenedorTitulodos">
-              <h2 class="text-center">Nuestros Gauchos Destacados</h2>
+          <div class="container-fluid text-light contenedorTitulodos">
+              <h2 class="text-center tituloDos">Nuestros Gauchos Destacados</h2>
           </div>
-          <div class="contenedorPerfiles">
+          <div class="container-fluid contenedorPerfiles">
             <ul class="perfilesDestacados">
-              <li><img src="./imagenes/cara1.jpeg" alt="Imagen de Usuario" class="caraUno"></li>
-              <li><img src="./imagenes/cara2.jpeg" alt="Imagen de Usuario" class="caraDos"></li>
-              <li><img src="./imagenes/cara3.jpeg" alt="Imagen de Usuario" class="caraTres"></li>
+              <li><img src="./imagenes/cara1.jpeg" alt="Imagen de Usuario" class="caras"></li>
+              <li><img src="./imagenes/cara2.jpeg" alt="Imagen de Usuario" class="caras"></li>
+              <li><img src="./imagenes/cara3.jpeg" alt="Imagen de Usuario" class="caras"></li>
             </ul>
             </div>
         </section>
     </main>
     <footer class="container-fluid barraFooter">
       <div class="row">
-        <div class="col-lg-3 col-sm-12"> 
+        <div class="col-lg-4 col-md-4 col-sm-4"> 
           <div class="footer__contacto mt-5 d-flex flex-column align-items-start mx-5">
-            <div class="tel__footer">
+            <div class="container tel__footer mb-2">
               <i class="fa-solid fa-phone fa-2x"></i>
-               <p class="fs-2 mx-4">432345</p>
+               <p class="text-light mx-3">+54 385432345</p>
             </div>
-            <div class="dir__footer">
+            <div class="container dir__footer">
               <i class="fa-solid fa-location-dot fa-2x"></i>
-              <p class="fs-3 mx-4"> 9 De Julio 1785, Sgo Del Est, Arg</p>
+              <p class="text-light mx-3"> 9 De Julio 1785 <br> Sgo Del Est, Arg</p>
             </div>
     
           </div>
         </div>
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-4 col-md-4 col-sm-12">
           <div class="contenedorMigas mt-5">
             <a class="migas" aria-current="page" href="#">Inicio</a>
             <a class="migas" href="./paginas/servicios.html">Servicios</a>
@@ -95,10 +94,10 @@
             <a class="migas" href="./paginas/contacto.html">Contacto</a> 
           </div>
         </div>
-        <div class="col-lg-3 col-sm-12 redsocial">
+        <div class="col-lg-4 col-md-4 col-sm-12 redsocial">
           <div class="mt-5">
             <a href="https://www.facebook.com/mipagina" target="_blank">
-                <img src="../imagenes/facebook.png" alt="Logo Facebook"> 
+                <img src="../imagenes/facebook.png" alt="Logo Facebook" class=""> 
             </a> 
             <a href="https://www.instagram.com/mipagina" target="_blank"> 
               <img src="../imagenes/instagram.png" alt="Logo Instagram">
@@ -109,7 +108,7 @@
           </div>
         </div>
         <div class="contenedor">
-          <p class="fs-2 copy"> © 2022 Go Gaucho | Todos los derechos reservados.</p>
+          <p class="fs-6 copy"> © 2022 Go Gaucho | Todos los derechos reservados.</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
