@@ -1,19 +1,17 @@
 *{
     margin: 0;
-    padding: o;
+    padding: 0;
 }
 
 *{list-style: none;
 }
 .cuerpo {
-    width: 100%;
+    width: 100vw;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #264189;
-    padding-bottom:0;
-    min-height: 100vh;
-    overflow-x: hidden;
 }
+    
 .cabecera {
     width: 100%;
     display: flex;
@@ -43,7 +41,6 @@
         transition: all 300ms ease;
         height: 100%;
         box-shadow: 0.5vw 1vw 5vw #000;
-
 }
 .principal {
     margin-top: 20vw;
@@ -80,51 +77,79 @@
     height: 14vw;
     border-radius:7vw;
 }
-.barraFooter {
-    width: 100%;
-    background: linear-gradient(to bottom, gray, black);
+
+/* SECCION FINAL Y FOOTER----- */
+.section-subscribe {
+    padding: 5em 0;
+}
+.form-control {
+    outline: none;
+     -webkit-box-shadow: none !important;
+    height: 50px;
+}
+.form-control:focus {
+    -webkit-box-shadow: 0 3px 10px rgb(0,0,0,0.2) !important;
+    box-shadow: 0 3px 10px rgb(0,0,0,0.2) !important;
+}
+.form-control:focus, .form-control:active {
+    outline: none;
+}
+.btn {
+     -webkit-box-shadow: 0 3px 10px rgb(0,0,0,0.2) !important;
+    box-shadow: 0 3px 10px rgb(0,0,0,0.2) !important;
+}
+.btn.btn-secondary {
+    color: #fff;
+    border-width: 2px;
+    background: #264189;
+    border-color: #264189;
+    padding: 10px;
+}
+.site-footer {
+    padding: 5em 0;
+    background: linear-gradient(to bottom, grey, black 80%, black);
+    font-size: 14px;
+    color:rgb(243, 236, 236);
+}
+.site-footer p:last-child {
+    margin-bottom: 0;
+}
+.site-fotter a{
+    color: yellow;
+    border-bottom: 1px solid transparent;
+}
+.site-footer a:hover {
+    color:#fff;
+    border-bottom: 1px solid rgb(255,255,255,0.2) ;
+}
+.site-footer h2 {
+    font-size: 22px;
+    margin-bottom: 28px;
+    letter-spacing: 0.5em;
+    color: #fff;
+}
+.site-footer .footer-link li {
+    line-height: 1.5;
+    margin-bottom: 15px;
+
+}
+.footer-social a {
+    line-height: 0;
+    border-radius: 50%;
+    margin: 0 5px 5px 0;
+    border: 1px solid rgb(255,255,255,0.q);
+    width: 30px;
+    height: 30px;
     text-align: center;
+    display: inline-block;
 }
-.redsocial {
-    display: flex;
-    margin-bottom: 5vw;
-    justify-content: space-around;
-
-}
-
-.redsocial a img {
-    width: 2vw;
-    margin: 0.5vw;
-    transition: all 300ms;
-}
-.redsocial a img:hover {
-    width: 33px;
-}
-
-.migas {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
+.footer-social a:hover {
+    background: #fff;
+    border-color: #fff;
     color: #000;
-    line-height: 1.5vw;
-
-    
 }
-.barraFooter__lista{
-    list-style: none;
-}
-.tel__footer{
-    display: flex;
-    justify-content: center;
-
-}
-.dir__footer{
-    display: flex;
-    justify-content: center;
-}
-.copy {
-    margin-top: 1vw;
-    color: white;
+.footer-social .fa{
+    margin-top: 7px;
 }
 
 /***********************
@@ -133,6 +158,7 @@
  .principalServicios {
      width: 100%;
      margin-bottom: 10vw;
+     color:rgb(0, 0, 0)
 }
  .serviciosSection {
      width: 100vw;
@@ -315,70 +341,54 @@
  *******************/  
  .principalContacto {
      width: 100%;
+     margin-top: 5vw;
+     margin-bottom: 10vw;
  }
- .formContacto {
-    width: 40vw;
-    margin: 25vw;
-    background: rgb(145, 143, 143);
-    padding: 2vw;
-    border-radius: 2vw;
-    color: white;
-    box-shadow: 0.5vw 2vw 5vw #000;
+ .header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
 }
- .formContacto h4 {
-    text-align: center;
-    font-size: 2vw;   
-   padding-bottom: 2vw;
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
 }
+.form-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vw;
+}
+
+
+
+
 /*********************
  *    MEDIA QUERIE   *
  *********************/ 
  @media only screen and (max-width:1024px) {
-
-    /* Index */
-     .tel__footer {
-         font-size: 1.2vw !important;
-     }
-     .dir__footer{
-         font-size: 1.2vw !important;
-     }
-     .contenedorMigas a{
-         margin-bottom: 1vw;
-         font-size: 1.5vw;
-     }
+   
+    /* Contacto */
+     .col-md-1 {
+    padding-right: 2vw;
+} 
 
 }
 /* ------------------------------------ */
  @media only screen and (max-width:960px) {
 
-    /* Index */
-     .tel__footer {
-         font-size: 1.2vw !important;
-     }
-     .dir__footer{
-         font-size: 1.2vw !important;
-     }
-}
-.contenedorMigas a{
-         margin-bottom: 1vw;
-         font-size: 1.5vw;
-     }
+    /* Contacto */
+     .col-md-1 {
+        padding-right: 2vw;
+        }
+    }
 
 /* ------------------------------------ */
 @media only screen and (max-width:800px) {
 
-    /* Index */
-     .tel__footer {
-         width: 25vw;
-         font-size: 1.2vw;
-     }
-     .dir__footer{
-         width: 25vw;
-         font-size: 1vw;
-     }
-     .contenedorMigas a{
-         margin-bottom: 1vw;
-         font-size: 1.5vw;
+      /* Contacto */
+     .col-md-1 {
+    padding-right: 2vw;
      }
 }
 
@@ -416,28 +426,6 @@
     height: 20vw;
     border-radius:40vw;
 } 
-.contenedorMigas {
-    display: none;
-}
-.redsocial a img {
-    width: 10vw;
-    margin:0;
-    transition: all 300ms;
-}
-.redsocial a img:hover {
-    width: 33px;
-}
-.tel__footer {
- width: 80vw;
-font-size: 3vw !important;
-}
-.dir__footer{
-width: 80vw;
-font-size: 3vw !important;
-}
-.copy {
-    font-size: 3vw !important;
-}
 /* -----------------------------------
 -----------Servicios------------------ */
 .form-outline {
@@ -496,26 +484,8 @@ width: 50vw
     height: 20vw;
     border-radius:40vw;
 } 
-.contenedorMigas {
-    display: none;
-}
-.redsocial a img {
-    width: 10vw;
-    margin:0;
-    transition: all 300ms;
-}
-.redsocial a img:hover {
-    width: 33px;
-}
-.tel__footer {
- width: 80vw;
-font-size: 3vw !important;
-}
-.dir__footer{
-width: 80vw;
-font-size: 3vw !important;
-}
-.copy {
-    font-size: 3vw !important;
-}
+ /* Contacto */
+      .col-md-1 {
+    padding-right: 2vw;
+} 
 }
