@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+* {list-style: none;
+}
+.cuerpo {
+    width: 100vw;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: $color-principal;
+}
+
+.principal {
+    width: 100%;
+    margin-top: 10vw;
+    margin-bottom:10vw;
+}
