@@ -7,3 +7,36 @@
     justify-content: center;
     margin-bottom: 1vw;
 }
+/*********************
+ *    MEDIA QUERIE   *
+ *********************/ 
+ @media only screen and (max-width:1024px) {
+   
+     .col-md-1 {
+    padding-right: 2vw;
+} 
+}
+
+/* ------------------------------------ */
+ @media only screen and (max-width:960px) {
+
+     .col-md-1 {
+        padding-right: 2vw;
+        }
+    }
+
+/* ------------------------------------ */
+@media only screen and (max-width:800px) {
+
+      /* Contacto */
+     .col-md-1 {
+    padding-right: 2vw;
+     }
+}
+
+/* ------------------------------------ */
+@media only screen and (max-width:375px) {
+      .col-md-1 {
+    padding-right: 2vw;
+} 
+}

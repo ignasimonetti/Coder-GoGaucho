@@ -1,0 +1,130 @@
+.imagen__celular {
+    width: 40vw;
+    height: 45vw;
+    filter: blur(0);
+    transition: all 0.5s linear;
+    &:hover {
+    filter: blur(20px)
+    }
+}
+.contenedorTitulodos {
+    margin-top: 20vw;
+    margin-bottom: 10vw;  
+} 
+.tituloDos{
+    transition: all 300ms;
+    
+}
+.tituloDos:hover {
+    font-size: 3vw;
+}
+.contenedorPerfiles {
+   margin-bottom: 30vw;
+}
+.perfilesDestacados {
+    display: flex;
+    justify-content: space-evenly;
+}
+.caras{
+    width: 14vw;
+    height: 14vw;
+    border-radius:7vw;
+}
+/* SECCION FINAL Y FOOTER----- */
+.section-subscribe {
+    padding: 5em 0;
+}
+.form-control {
+    outline: none;
+    box-shadow: none !important;
+    height: 50px;
+    &:focus {
+    box-shadow: 0 3px 10px #000 !important; 
+    }
+}
+.form-control:focus, .form-control:active {
+    outline: none;
+}
+.btn {
+ box-shadow: 0 3px 10px #000 !important;
+} 
+.btn.btn-secondary {
+    color: #fff;
+    border-width: 2px;
+    background: #264189;
+    border-color: #264189;
+    padding: 10px;
+}
+
+/*********************
+ *    MEDIA QUERIE   *
+ *********************/ 
+ @media only screen and (max-width:414px) {
+
+    .logo {
+        width: 80%;
+        display: flex;
+        justify-content:center;
+    }
+    .cabecera__imagen {
+        width: 40vw;
+    }
+    .seccionUno {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .contenedorCelu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tituloDos{
+     font-size:6vw;
+    transition: all 300ms;
+    
+}
+.tituloDos:hover {
+    font-size: 6vw;
+}
+.caras{
+    width: 20vw;
+    height: 20vw;
+    border-radius:40vw;
+} 
+ }
+ 
+/* ------------------------------------ */
+@media only screen and (max-width:375px) {
+
+    /* Index */
+    .logo {
+        width: 80%;
+        display: flex;
+        justify-content:center;
+    }
+    .cabecera__imagen {
+        width: 40vw;
+    }
+    .seccionUno {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .contenedorCelu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tituloDos{
+     font-size:6vw;
+    transition: all 300ms;
+    
+}
+.tituloDos:hover {
+    font-size: 6vw;
+}
+.caras{
+    width: 20vw;
+    height: 20vw;
+    border-radius:40vw;
+} 
+}

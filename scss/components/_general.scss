@@ -5,7 +5,7 @@
 * {list-style: none;
 }
 .cuerpo {
-    width: 100vw;
+    width: 100%;
     margin: 0;
     font-family: "Roboto", sans-serif;
     background-color: $color-principal;
@@ -15,4 +15,7 @@
     width: 100%;
     margin-top: 10vw;
     margin-bottom:10vw;
+}
+.body {
+    overflow-x: hidden;
 }

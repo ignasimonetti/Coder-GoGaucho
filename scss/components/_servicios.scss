@@ -1,0 +1,94 @@
+.serviciosSection {
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+     margin-top: 20vw;
+ }
+   
+ .serviciosTitulo1 {
+     width: 100vw;
+     margin-bottom: 3vw;
+     text-align: center;
+     color: white;
+ }
+.input-group {
+    display: flex;
+    justify-content: center;
+ }
+.form-outline {
+    width: 30vw;
+}
+.servicios {
+    margin-top: 15vw;
+    margin-bottom: 6vw;
+
+}
+.serviciosContenedorIconos1 {
+    display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   padding-left: 5vw;
+}
+.serviciosContenedorIconos1 a i {
+    color: black;
+    transition: 300ms;
+    &:hover {
+    font-size: 9vw;
+    }
+}
+
+.serviciosContenedorTextoIcon1 {
+    display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   padding-left: 5vw;
+   padding-top: 2vw;
+}
+.serviciosContenedor2 {
+    display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   padding-top: 6vw;
+   padding-left: 5vw;
+}
+.serviciosContenedor2 a i {
+    color: black;
+    transition: 300ms;
+    &:hover {
+        font-size: 9vw;
+    }
+}
+.serviciosContenedorTextoIcon2 {
+    display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   padding-left: 3vw;
+   padding-top: 2vw;
+}
+
+/*********************
+ *    MEDIA QUERIE   *
+ *********************/ 
+@media only screen and (max-width:414px) {
+.form-outline {
+width: 50vw
+}
+.serviciosContenedorIconos1 a i {
+    font-size: 12vw;
+}
+.serviciosContenedorIconos1 a i:hover{
+    font-size: 12vw;
+}
+.serviciosContenedorTextoIcon1 h3 {
+    font-size: 5vw;
+}
+.serviciosContenedor2 a i {
+    font-size: 12vw;
+}
+.serviciosContenedor2 a i:hover{
+    font-size: 12vw;
+}
+.serviciosContenedorTextoIcon2 h3 {
+    font-size: 5vw;
+}
+}

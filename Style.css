@@ -4,7 +4,7 @@
 }
 
 *{list-style: none;
-}
+} /* Pasado */
 .cuerpo {
     width: 100vw;
     margin: 0;
@@ -17,7 +17,7 @@
     display: flex;
     font-family: 'Roboto', sans-serif;
     background-color: #264189;
-}
+} /* Pasado */
 .navbar-brand {
     margin-top: 5vw;
 }
@@ -41,7 +41,7 @@
         transition: all 300ms ease;
         height: 100%;
         box-shadow: 0.5vw 1vw 5vw #000;
-}
+} /* Pasado */
 .principal {
     margin-top: 20vw;
 }

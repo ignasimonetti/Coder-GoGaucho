@@ -1,0 +1,41 @@
+.contenedorUsuarios {
+     width: 50vw;
+     margin-top: 8vw;
+     margin-left: 25vw;
+     margin-right: 25vw;
+     margin-bottom: 10vw;
+    padding-bottom: 10vw;
+     border: solid coral;
+     padding-left: 1.5vw;
+     padding-top: 1.5vw;
+ }
+
+ .titulo1{
+     display: flex;
+     justify-content: center;
+     color: white;
+     font-size: 3vw;
+ }
+.botones {
+    width: 50vw;
+    padding-top: 8vw;
+    display: flex;
+    justify-content:center;
+    justify-content: space-evenly;
+}
+.contenedorTitulo2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vw;
+}
+
+.terminos {
+    color: white;
+    font-size: 1vw;
+    padding-left: 1vw;
+}
+
+.titulo2 {
+    font-size: 1vw;
+    color: white;
+}
