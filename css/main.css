@@ -1,3 +1,11 @@
+/* MAPS */
+/* EXTEND */
+.serviciosContenedorIconos1, .serviciosContenedor2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* MIXIN */
 * {
   padding: 0;
   margin: 0; }
@@ -17,6 +25,7 @@
   margin-bottom: 10vw; }
 
 .body {
+  min-height: 100vh;
   overflow-x: hidden; }
 
 .cabecera {
@@ -377,16 +386,6 @@
   background-color: #ebeff8;
   color: #8D8D8D; }
 
-.mv-up {
-  margin-top: -9px !important;
-  margin-bottom: 8px !important; }
-
-.invalid-feedback {
-  color: #ff606e; }
-
-.valid-feedback {
-  color: #2acc80; }
-
 /*********************
  *    MEDIA QUERIE   *
  *********************/
@@ -424,8 +423,6 @@
   margin-bottom: 6vw; }
 
 .serviciosContenedorIconos1 {
-  display: flex;
-  justify-content: center;
   justify-content: space-around;
   padding-left: 5vw; }
 
@@ -437,14 +434,14 @@
 
 .serviciosContenedorTextoIcon1 {
   display: flex;
+  direction: row;
   justify-content: center;
+  align-items: center;
   justify-content: space-around;
   padding-left: 5vw;
   padding-top: 2vw; }
 
 .serviciosContenedor2 {
-  display: flex;
-  justify-content: center;
   justify-content: space-around;
   padding-top: 6vw;
   padding-left: 5vw; }
@@ -457,7 +454,9 @@
 
 .serviciosContenedorTextoIcon2 {
   display: flex;
+  direction: row;
   justify-content: center;
+  align-items: center;
   justify-content: space-around;
   padding-left: 3vw;
   padding-top: 2vw; }

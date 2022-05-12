@@ -1,6 +1,6 @@
 .site-footer {
     padding: 5em 0;
-    background: linear-gradient(to bottom, black 70%, grey);
+    background: map-get($colores, color-footer);
     font-size: 14px;
     color:rgb(243, 236, 236);
 }

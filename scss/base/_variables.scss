@@ -1,2 +1,31 @@
 $color-principal: #264189;
 $color-secundario: #52C7E4;
+
+/* MAPS */
+$colores: (
+    color-principal:  #264189,
+    color-secundario: #52C7E4,
+    color-footer:  linear-gradient(to bottom, black 70%, grey),
+    color-usuarios: linear-gradient(to right, #00030c, #264189),
+);
+
+ $tamanio-tipografia:(
+    titulos: 3vw,
+    subtitulos: 2vw,
+    parrafos: 0.5,
+);
+
+/* EXTEND */
+%flex-center {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+};
+
+/* MIXIN */
+@mixin flexbox ($direction, $justify, $align){
+    display: flex;
+    direction: $direction;
+    justify-content: $justify ;
+    align-items: $align ;    
+};

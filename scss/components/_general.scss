@@ -8,7 +8,7 @@
     width: 100%;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    background-color: $color-principal;
+    background-color: map-get($colores, color-principal)
 }
 
 .principal {
@@ -17,5 +17,6 @@
     margin-bottom:10vw;
 }
 .body {
+    min-height: 100vh;
     overflow-x: hidden;
 }

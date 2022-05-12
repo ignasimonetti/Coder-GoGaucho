@@ -1,8 +1,9 @@
 .cabecera {
     width: 100%;
     display: flex;
+
     font-family: 'Roboto', sans-serif;
-    background-color: #264189;
+    background-color: map-get($colores, color-principal)
 }
 .navbar-brand {
     margin-top: 5vw;
