@@ -47,81 +47,153 @@
       </nav>
     </header>
     <main class="container-fluid principal">
-            <section class="container d-flex flex-row seccionUno">
-              <div class="textoUno">
-                 <h1 class="text-center text-light my-5">¡Encontrá a tu Gaucho ideal!</h1>
-                  <p class="fs-5 text-light my-5 mx-5">Decargá la App. Registrate gratis, navegá entre los servicios disponibles y
+        <section class="container d-flex flex-row seccionUno">
+            <div class="textoUno d-flex flex-column">
+                <h1 class="text-center text-light my-5">¡Encontrá a tu Gaucho ideal!</h1>
+                <p class="fs-5 text-light my-5 mx-5">Escaneá el código Qr, decargá la App y registrate gratis. Navegá entre los servicios disponibles y
                     contratá al profesional que mejor se ajuste a tus necesidades! </p>
-                  </div>
-              </div>
-              <div class="contenedorCelu">
-                <img src="./imagenes/celulartres.jpg" alt="Celular" class="imagen__celular">
-              </div>
-            </section> 
-        <section class="container-fluid flex-column">
-          <div class="container-fluid text-light contenedorTitulodos">
-              <h2 class="text-center tituloDos">Nuestros Gauchos Destacados</h2>
-          </div>
-          <div class="container-fluid contenedorPerfiles">
-            <ul class="perfilesDestacados">
-              <li><img src="./imagenes/cara1.jpeg" alt="Imagen de Usuario" class="caras"></li>
-              <li><img src="./imagenes/cara2.jpeg" alt="Imagen de Usuario" class="caras"></li>
-              <li><img src="./imagenes/cara3.jpeg" alt="Imagen de Usuario" class="caras"></li>
-            </ul>
+               <div class="container row cont__imagenqr">
+                    <img src="./imagenes/qr.png" alt="Codigo QR" class="img-fluid w-50 img-thumbnail">
+               </div> 
             </div>
+            <div class="contenedorCelu">
+                <img src="./imagenes/celulartres.jpg" alt="Celular" class="imagen__celular">
+            </div>
+        </section> 
+        <div class="faqsss my-5 rounded-3">
+        <div class="container">
+            <div class="sectionfuncionamiento-header text-center">
+                
+                <h2>Cómo Funciona</h2>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div class="icon d-flex order-md-last justify-content-center align-items-center text-light">
+                            <span class="fa fa-download icon-funcionamiento fa-lg mx-2"></span>
+                        </div>
+                        <div class="text pl-4 pl-sm-0 pr-md-4 text-md-right">
+                            <h5 class="subtitle-funcionamiento">Descargá la App</h5>
+                            <p class="text-funcionamiento">GoGaucho está disponible en Google Play para dispositivos Android</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="icon d-flex order-md-last justify-content-center align-items-center text-light">
+                            <span class="fa fa-edit icon-funcionamiento fa-lg px-2"></span>
+                        </div>
+                        <div class="text pl-4 pl-sm-0 pr-md-4 text-md-right">
+                            <h5 class="subtitle-funcionamiento">Registrate GRATIS</h5>
+                            <p class="text-funcionamiento">Registrarte como cliente o como profesional desde nuestra App sin cargo.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="icon d-flex order-md-last justify-content-center align-items-center text-light">
+                            <span class="fa fa-search icon-funcionamiento fa-lg mx-1"></span>
+                        </div>
+                        <div class="text pl-4 pl-sm-0 pr-md-4 text-md-right">
+                            <h5 class="subtitle-funcionamiento">Buscas un profesional o un comercio?</h5>
+                            <p class="text-funcionamiento">Navegá entre los profesionales y rubros disponibles. Encontrá al indicado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    
+                    <div class="d-flex">
+                        <div class="icon d-flex justify-content-center align-items-center text-light">
+                            <span class="fa fa-sort-amount-down icon-funcionamiento fa-lg mx-2"></span>
+                        </div>
+                        <div class="text pl-4 pl-sm-0 pl-md-4">
+                            <h5 class="subtitle-funcionamiento">Filtrá tus búsquedas</h5>
+                            <p class="text-funcionamiento">Para econtrar al profesional adecuado, filtrá por rubro, calificación o cercanía.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="icon d-flex justify-content-center align-items-center text-light">
+                            <span class="fa fa-address-card icon-funcionamiento fa-lg mx-2"></span>
+                        </div>
+                        <div class="text pl-4 pl-sm-0 pl-md-4">
+                            <h5 class="subtitle-funcionamiento">Conocé a tu proveedor</h5>
+                            <p class="text-funcionamiento">Accedé a los datos personales, foto de perfil, ubicación y especialidades.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="icon d-flex justify-content-center align-items-center text-light">
+                            <span class="fa fa-handshake icon-funcionamiento fa-lg mx-2"></span>
+                        </div>
+                        <div class="text pl-4 pl-sm-0 pl-md-4">
+                            <h5 class="subtitle-funcionamiento">Comunicate con tu proveedor</h5>
+                            <p class="text-funcionamiento">Contactate directamente con los proveedores, solicitá presupuestos y contratá de manera rápida y sencilla.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <section class="container-fluid">
+            <div class="container-fluid text-light contenedorTitulodos">
+              <h2 class="text-center tituloDos">Nuestros Gauchos Destacados</h2>
+            </div>
+            <section class="container gauchos__destacados">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="./imagenes/cara7.jpeg" class="card-img-top" alt="Imagen Usuario Profesional">
+                    <div class="card-body">
+                        <p class="card-text text-center">Sebastián Conte <br> <span class="text-secondary">Jardinero</span></p>
+                    </div>
+                </div>
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="./imagenes/cara6.jpeg" class="card-img-top" alt="Imagen Usuario Profesional">
+                    <div class="card-body">
+                        <p class="card-text text-center">Fabiola Torrero <br><span class="text-secondary">Niñera</span> </p>
+                    </div>
+                </div>
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="./imagenes/cara5.jpeg" class="card-img-top" alt="Imagen Usuario Profesional">
+                    <div class="card-body">
+                        <p class="card-text text-center">Sergio De La Vega<br> <span class="text-secondary">Plomero</span></p>
+                    </div>
+                </div>
+            </section>
         </section>
     </main>
     <section class="sectio-suscribe bg-light">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-md-12 mb-4">
-                        <h1 class="heading text-center">Novedades &amp; publicaciones</h1>
-                    </div>
-                    <div class="col-md-12">
-                        <form action="" method="POST">
-                            <div class="row">
-                                <div class="col-mb-4 mb-4">
-                                    <input type="text" class="form-control" placeholder="Tu nombre aquí">
-                                </div>
-                                 <div class="col-mb-4 mb-4">
-                                    <input type="email" class="form-control" placeholder="Tu email aquí">
-                                </div>
-                                 <div class="col-mb-4 mb-4">
-                                    <input type="submit" class="btn btn-secondary w-100" value="Subscibirse">
-                                </div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12 mb-4">
+                    <h2 class="heading text-center">Novedades &amp; publicaciones</h2>
+                </div>
+                <div class="col-md-12">
+                    <form action="" method="POST">
+                        <div class="row">
+                            <div class="col-mb-4 mb-4">
+                                <input type="text" class="form-control" placeholder="Tu nombre aquí">
                             </div>
-
-                        </form>
-                    </div>
-
+                            <div class="col-mb-4 mb-4">
+                                <input type="email" class="form-control" placeholder="Tu email aquí">
+                            </div>
+                            <div class="col-mb-4 mb-4">
+                                <input type="submit" class="btn btn-secondary w-100" value="Subscibirse">
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-
-        </section>
-
+        </div>
+    </section>
     <footer class="site-footer">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-3 mb-5">
                     <h2>Sobre Nosotros</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eveniet quia sit. 
-                    Voluptatem voluptate quisquam dolorem obcaecati eaque soluta possimus cumque dolor
-                    laudantium iure, at, ipsam, perspiciatis blanditiis magnam cupiditate!</p>
+                    <p class="text-justify"> Somos una nueva StartUp con sede en Argentina que que combina la mano de obra independiente con la demanda local, lo que permite a los consumidores encontrar ayuda inmediata con las tareas cotidianas, incluidas la limpieza, la mudanza, la entrega y el trabajo de mantenimiento, etc.</p>
                     <p><a href="">Accede para conocer más</a></p>
                 </div>
                 <div class="col-md-3 mb-5">
                     <h2>Contacto &amp; Dirección</h2>
                     <ul class="list-unstyled footer-link">
-                        <li class="d-flex">
-                            <span class="me-3">Dirección:</span> <span class="text-white"> 24 de Septiembre 262, Santiago Del Estero,
-                                Argentina</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="me-3">Teléfono:</span> <span class="text-white"> +54 385 4211784</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="me-3">Email:</span> <span class="text-white">info@gogaucho.com.ar</span>
-                        </li>
+                        <li class="d-flex"><span class="me-3">Dirección:</span> <span class="text-white"> 24 de Septiembre 262, Santiago Del Estero,
+                                Argentina</span></li>
+                        <li class="d-flex"><span class="me-3">Teléfono:</span> <span class="text-white"> +54 385 4211784</span></li>
+                        <li class="d-flex"><span class="me-3">Email:</span> <span class="text-white">info@gogaucho.com.ar</span></li>
                     </ul>
                 </div>
                 <div class="col-md-3 mb-5">
@@ -136,17 +208,17 @@
                 <div class="col-md-3">
                     <h2>Nuestras redes sociales</h2>
                     <ul class="list-unstyled footer-link d-flex footer-social">
-                        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                        <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-                        <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                        <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                        <li><a href="https://www.facebook.com" target="_blank"><span class="fa fa-facebook"></span></a></li>
+                        <li><a href="https://twitter.com" target="_blank"><span class="fa fa-twitter"></span></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><span class="fa fa-instagram"></span></a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+                        <li><a href="https://www.youtube.com" target="_blank"><span class="fa fa-youtube"></span></a></li>
                     </ul>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 text-md-center text-left">
-                    <p>Este sitio está hecho con <i class="fa fa-heart-o"></i> por Aventura Digital 2022</p>
+                    <p>Este sitio está hecho con <i class="fa fa-mug-saucer"></i> por Aventura Digital 2022</p>
                 </div>
             </div>
 
