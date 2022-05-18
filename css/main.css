@@ -120,18 +120,17 @@
   position: relative;
   width: 100%;
   padding: 45px 0;
-  background-color: #b5b5b5; }
+  background-color: #b5b5b51c; }
 
-.card {
-  transition: all 0.2s ease;
-  cursor: pointer; }
-  .card:hover {
-    box-shadow: 5px 6px 6px 2px #e9ecef;
-    transform: scale(1.1); }
+.sectionfuncionamiento-header h2 {
+  color: white; }
 
 .subtitle-funcionamiento {
   font-weight: bolder;
-  color: #000; }
+  color: #8dadee; }
+
+.text-funcionamiento {
+  color: white; }
 
 .tituloDos {
   transition: all 300ms; }
@@ -144,9 +143,19 @@
   flex-direction: row;
   justify-content: space-evenly; }
 
+.card {
+  transition: all 0.2s ease;
+  cursor: pointer; }
+  .card:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1); }
+
 /* SECCION FINAL Y FOOTER----- */
-.section-subscribe {
+.section-suscribe {
+  background-color: #b5b5b51c;
   padding: 5em 0; }
+  .section-suscribe h2 {
+    color: #8dadee; }
 
 .form-control {
   outline: none;
@@ -449,7 +458,8 @@
   align-items: center;
   justify-content: space-around;
   padding-left: 5vw;
-  padding-top: 2vw; }
+  padding-top: 2vw;
+  color: white; }
 
 .serviciosContenedor2 {
   justify-content: space-around;
@@ -469,7 +479,8 @@
   align-items: center;
   justify-content: space-around;
   padding-left: 3vw;
-  padding-top: 2vw; }
+  padding-top: 2vw;
+  color: white; }
 
 /*********************
  *    MEDIA QUERIE   *

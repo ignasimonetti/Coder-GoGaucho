@@ -23,19 +23,19 @@
     position: relative;
     width: 100%;
     padding: 45px 0;
-    background-color: #b5b5b5;
+    background-color: #b5b5b51c;
 }
-.card {
-    transition: all 0.2s ease;
-    cursor: pointer;
-    &:hover{
-    box-shadow: 5px 6px 6px 2px #e9ecef;
-    transform: scale(1.1);
+.sectionfuncionamiento-header {
+    h2 {
+        color: white;
     }
 }
 .subtitle-funcionamiento {
     font-weight: bolder;
-    color: #000;
+    color: rgb(141, 173, 238);
+}
+.text-funcionamiento {
+    color: white;
 }
 .tituloDos{
     transition: all 300ms;
@@ -49,10 +49,22 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+.card {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    &:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+    }
+}
 
 /* SECCION FINAL Y FOOTER----- */
-.section-subscribe {
+.section-suscribe {
+    background-color:#b5b5b51c;
     padding: 5em 0;
+    h2 {
+        color: rgb(141, 173, 238);
+    }
 }
 .form-control {
     outline: none;
